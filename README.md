@@ -1,7 +1,7 @@
 # USCIS Data Scrapers  
 This repository contains two automated Python scrapers that collect, deduplicate, and organize public datasets from the **U.S. Citizenship and Immigration Services (USCIS)**. The first scraper focuses on **H-1B, H-2A, and H-2B employer data hub files**, while the second scraper dynamically crawls the USCIS data library for **I-140, I-129, I-765, I-907, I-485, and EB petition datasets**.  
 
-## 📁 Project Structure  
+## Project Structure  
 uscis_data/  
 ├── h1b/                  # H-1B employer data files  
 ├── h2a/                  # H-2A employer data files  
