@@ -40,18 +40,7 @@ uscis_data/
 Optional: `pip install python-crontab`  
 
 ## Outputs  
-Each run produces downloaded files organized by visa/form type, manifest and metadata JSONs, logs under `/logs`, and report text files summarizing file counts and sizes.  
-**Example Report:**  
-============================================================  
-USCIS Data Hub Scraper Report  
-Generated: 2025-11-06 02:10:11  
-============================================================  
-H1B: 8 files (122.5 MB)  
-H2A: 5 files (73.1 MB)  
-H2B: 4 files (55.8 MB)  
-Total files: 17  
-Total size: 251.4 MB  
-============================================================  
+Each run produces downloaded files organized by visa/form type, manifest and metadata JSONs, logs under `/logs`, and report text files summarizing file counts and sizes. 
 
 ## Maintenance  
 Logs older than 90 days are deleted • Missing/corrupted files are detected and fixed • Repeated failures trigger `SCRAPE_FAILURE.txt`.  
