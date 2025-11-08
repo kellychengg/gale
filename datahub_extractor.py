@@ -52,7 +52,7 @@ class USCISDataScraper:
     
     BASE_URLS = {
         'h1b': 'https://www.uscis.gov/archive/h-1b-employer-data-hub-files',
-        'h2a': 'https://www.uscis.gov/archive/h-2a-employer-data-hub-files',
+         #'h2a': 'https://www.uscis.gov/archive/h-2a-employer-data-hub-files',
         'h2b': 'https://www.uscis.gov/archive/h-2b-employer-data-hub-files'
     }
     
